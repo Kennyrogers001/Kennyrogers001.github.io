@@ -44,6 +44,10 @@ img{
 
 .delivery-container{
     display: flex;
+    background-color: rebeccapurple;
+}
+.left{
+    justify-content: left;
 }
 .delivery-details{
     display: flex;
@@ -55,11 +59,7 @@ img{
     margin: auto;
 }
 .delivery-runner-details{
-    display: none;
-} 
-
-.delivery-self-details{
-    display: none;
+    display: block;
 }
 .wrapper{
     display: flex;
@@ -67,7 +67,7 @@ img{
     align-items: center ;
 }
 
-.total-bill, .push{
+.total-bill, #push{
     justify-content: center;
     display: flex;
 }
