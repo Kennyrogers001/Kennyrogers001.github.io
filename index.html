@@ -8,7 +8,7 @@
     <title>Kenny Rogers Samyang</title>
 </head>
 <body>
-    <form>
+    <form action="https://script.google.com/macros/s/AKfycbz9IdjU6GMP0Nf3Wqdpy_3Dw-b4lCkjG_HkHNN6AdIMmI9WRzZa2qie0ZToSQWOm_oU-w/exec">
        <div id="unique-indentifier" class="center">
         <input type="text" name="name" id="name"  placeholder="name">
         <input type="email" name="email" id="email"  placeholder="email">
@@ -17,28 +17,29 @@
        <div id="list-product">
         <div class="card">
             <label for="original"><img src="https://cdn.shopify.com/s/files/1/0620/7235/7116/products/HG37xyzpEgvZpYLX_0eb44159-7556-4a85-a639-23129c7bdb40.jpg?v=1708018955&width=360" alt="samyang original"></label>
-            <input type="number" min="0" name="order" id="original" placeholder="original">
+            <input type="number" min="0" name="original" id="original" placeholder="original">
         </div>
         <div class="card">
             <label for="cheese"><img src="https://k-ramen.eu/cdn/shop/products/UDkbT9eMFjSRM29P_a99fc525-649d-482d-8aea-5b8ba5950060.jpg?v=1708423928&width=713" alt="cheese"></label>
-            <input type="number" min="0" name="order" id="cheese" placeholder="cheese">
+            <input type="number" min="0" name="cheese" id="cheese" placeholder="cheese">
         </div>
         <div class="card">
             <label for="carbonara"><img src="https://cdn.shopify.com/s/files/1/0620/7235/7116/files/samyang-buldak-chicken-carbonara-130-gr_2e67104d-a0c0-4c3c-9082-93288274bdf2.jpeg?v=1712318683&width=360" alt="carbonara"></label>
-            <input type="number" min="0" name="order" id="carbonara" placeholder="carbonara">
+            <input type="number" min="0" name="carbonara" id="carbonara" placeholder="carbonara">
         </div>
        </div>
        <div id="delivery-type">
-        <div class="delivery-container"><input type="radio" required name="delivery" id="delivery-runner"><label for="delivery-runner"></p>deliver by runner (delivery fee applied)</p></label></div>
-        <div class="delivery-container"><input type="radio" name="delivery" id="self-collect"><label for="self-collect"><p>self collect "R314" (no fee)</p></label></div>
+        <div class="delivery-container"><input type="radio" required name="delivery" id="delivery-runner" value="by-runner"><label for="delivery-runner"></p>deliver by runner (delivery fee applied)</p></label></div>
+        <div class="delivery-container"><input type="radio" name="delivery" id="self-collect" value="self-collect"><label for="self-collect"><p>self collect "R314" (no fee)</p></label></div>
        </div>
        <div class="delivery-details">
         <div class="delivery-runner-details">
             <div class="wrapper">
                 <div class="left">
-                    <div class="delivery-container"><input type="radio" name="location-type" id="dn"><label for="dn"><p>Desasiswa Nurani</p></label></div>
-                    <div class="delivery-container"><input type="radio" name="location-type" id="cafe-nurani"><label for="cafe-nurani"><p>cafe nurani</p></label></div>
-                    <div class="delivery-container"><input type="radio" name="location-type" id="custom"><label for="custom"><p>custom delivery location</p></label></div><input type="text" name="location-details" placeholder="--specify/custom location--" id="custom-location">
+                    <div class="delivery-container"><input type="radio" name="location-type" value="dn" id="dn"><label for="dn"><p>Desasiswa Nurani</p></label></div>
+                    <div class="delivery-container"><input type="radio" name="location-type" value="cafe-nurani" id="cafe-nurani"><label for="cafe-nurani"><p>cafe nurani</p></label></div>
+                    <div class="delivery-container"><input type="radio" name="location-type" value="custom" id="custom"><label for="custom"><p>custom delivery location</p></label></div>
+                    <input type="text" name="location-details" placeholder="--specify/custom location--" id="custom-location">
                 </div>
             <div class="delivery-container">Time : <input type="datetime-local" name="datetime" id="datetime-runner"></div><p>*delivery may delay sometimes</p>
             <textarea name="message" id="message" cols="25" rows="10" placeholder="your message"></textarea>
@@ -52,7 +53,7 @@
         </div></div>
        
        <div class="total-bill">
-        <p>total : <span id="total">//</span></p>
+        <p>total : <span id="total" name="total"></span></p>
        </div>
        <div id="push"><input type="submit" value="Place order"></div>
     </form>
