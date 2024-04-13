@@ -70,6 +70,8 @@ body{
 img{
     width: 200px;
     border-radius: 15px;
+    box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
+
 }
 
 #list-product{
@@ -162,4 +164,8 @@ img{
     padding: 12px;
     box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
 
+}
+#last{
+    color: white;
+    text-align: center;
 }
