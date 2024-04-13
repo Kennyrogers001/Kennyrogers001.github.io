@@ -15,8 +15,9 @@ body{
 }
 #logo h1{
     background-color: transparent;
-    max-width: 200px;
-    padding-left: 10px;
+    width: 200px;
+    max-width: 250px;
+    /*padding-left: 10px;*/
     border: 2px solid;
     border-color: #fff;
     box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
@@ -128,6 +129,9 @@ img{
     color: silver;
     padding-top: 8px;
 }
+.delivery-self-details{
+    padding-top: 8px;
+}
 .left .wrap-center{
     padding-left: 35px;
 }
@@ -163,9 +167,15 @@ img{
     border-radius: 10px;
     padding: 12px;
     box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
-
+    margin-bottom: 20px;
 }
-#last{
+.last{
     color: white;
     text-align: center;
+    font-size: smaller;
+}
+
+footer{
+    background-color: gray;
+    margin: 0;
 }
