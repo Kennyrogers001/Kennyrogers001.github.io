@@ -69,10 +69,7 @@ body{
 }
 img{
     width: 200px;
-    box-sizing: border-box;
     border-radius: 15px;
-    box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
-
 }
 
 #list-product{
