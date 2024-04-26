@@ -135,6 +135,9 @@ img{
 .left .wrap-center{
     padding-left: 35px;
 }
+.margin-auto{
+    margin-left: 5px;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -169,9 +172,15 @@ img{
     box-shadow: 0 0 10px #8A2BE2; /* Neon purple glow */
     margin-bottom: 20px;
 }
+
+.disclaimer{
+    margin: auto;
+    padding-left: 30px;
+    width: fit-content;
+}
 .last{
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: smaller;
 }
 
