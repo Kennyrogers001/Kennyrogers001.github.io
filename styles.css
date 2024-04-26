@@ -136,7 +136,8 @@ img{
     padding-left: 35px;
 }
 .margin-auto{
-    margin-left: 5px;
+    background-color: #00f;
+    text-align: center;
 }
 .wrapper{
     display: flex;
@@ -174,9 +175,9 @@ img{
 }
 
 .disclaimer{
-    margin: auto;
     padding-left: 30px;
     width: fit-content;
+    margin: auto;
 }
 .last{
     color: white;
