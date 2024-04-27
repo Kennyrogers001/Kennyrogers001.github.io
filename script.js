@@ -15,9 +15,9 @@ var totalSpan = document.getElementById("total");
     var carbonaraQty = carbonaraInput.value ? parseInt(carbonaraInput.value) : 0;
 
     // Define the prices for each item
-    var originalPrice = 5.00; // Assuming price for each original item is $5.00
-    var cheesePrice = 5.50; // Assuming price for each cheese item is $5.60
-    var carbonaraPrice = 7.50; // Assuming price for each carbonara item is $5.60
+    var originalPrice = 6.00; // Assuming price for each original item is $5.00
+    var cheesePrice = 6.00; // Assuming price for each cheese item is $5.60
+    var carbonaraPrice = 7.00; // Assuming price for each carbonara item is $5.60
 
     // Calculate the total price
     var totalPrice = (originalQty * originalPrice) + (cheeseQty * cheesePrice) + (carbonaraQty * carbonaraPrice);
